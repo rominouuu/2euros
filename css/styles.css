@@ -26,6 +26,7 @@ div#bloc{
 	border-color: black;
 	border-radius: 15px;
 	border: solid;
+	border-width: clamp(3px, 0.3vw, 0.4vw);
 	position: relative;
 }
 
