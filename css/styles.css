@@ -1,94 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Roboto:wght@500&display=swap');
+
+
 body{
-	margin:auto;
-	background-color: #003299;
+	background-color: #1B2021;
 }
 
-
-.zoneblocs{
-	height: 100%;
-	width: 100vw;
-	align-content: space-evenly;
-	display: flex;
-	flex-wrap: wrap;
+header{
 	position: absolute;
-	margin:auto;
+	width: 100%;
+	display: flex;
 }
 
-
-/*  <!--BLOCS  -->*/
-
-
-div#bloc{
-	height: clamp(10vh, 25vh, 23vh);
-	width: clamp(20vw, 70vw, 70vw);
-	margin:auto;
-	background-color: #FFFBE0;
-	border-color: black;
-	border-radius: 15px;
-	border: solid;
-	border-width: clamp(3px, 0.3vw, 0.4vw);
+.zonetxt{
+	height: 100%;
 	position: relative;
-}
-
-/* BACKGROUND BLOCS*/
-
-
-
-div.zonetxt {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-}
-
-p.txt{
-	position: absolute;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 7vw;
-	height: 100%;
-	margin:0px;
-	width: 100%;
-	font-family: Roboto;
+	width: 33.33%;
 }
 
-
-.zoneimgcom{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	opacity: 40%;
-	background-image: url(https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2019_mt_nature_dvpt.jpg);	
-	background-size: auto;
-	background-repeat: none;
-	border-radius: 15px;
-	background-position: center;
+.zonetxt:hover{
+	background-color: #DEE5E5;
+	transition: 300ms;
+	font-color: black;
 }
 
 
 
-.zoneimgnat{
-	position: absolute;
-	height: 100%;
+a{
+	color: black;
+	text-decoration: none;
+	position: relative;
+	text-align: center;
 	width: 100%;
-	opacity: 40%;
-	background-image: url(https://www.ecb.europa.eu/euro/coins/common/shared/img/ad/ad_2euro.jpg);	
-	background-size: auto;
-	background-repeat: none;
-	border-radius: 15px;
-	background-position: center;
+	height: 100%;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #DEE5E5;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
-.zoneimgstats{
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	opacity: 40%;
-	background-image: url(https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Finland.jpg);	
-	background-size: auto;
-	background-repeat: none;
-	border-radius: 15px;
-	background-position: center;
+.linknat{
+	border-right: solid;
+	border-left: solid;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-right-color: #DEE5E5;
+	border-left-color: #DEE5E5;
 }
 
 
+p{
+	font-size: 4vw;
+	color: #DEE5E5;
+}
+
+p:hover{
+	font-size: 4vw;
+	color: #1B2021;
+}
